@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPP Daniel Vizgarra</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <h1>Llena el formular de Alta</h1>
+    <div id="modificar" style="margin-bottom: 40px;">
+        <fieldset style="margin-bottom: 20px;">
+            <legend>Informacion Del Anuncio</legend>
+            <div>titulo:</div>
+                <input type="text" id="txtTitulo" name = "titulo" autocomplete="off" placeholder="Título" title="Aca deberia ingresar el nombre de la vivienda"> 
+            <div>transaccion:</div>
+                <div>venta<input id="ventaCheck" type="radio" name="Genero" value = "venta" checked></div>
+                <div>alquiler<input id="alquilerCheck" type="radio" name="Genero" value = "alquiler"> </div>
+           
+            <div >descripcion:</div>
+                <input type="text" id="txtDescripcion" name = "descripcion" autocomplete="off" placeholder="Descripción" title="Aca deberia ingresar la descripción de la vivienda"> 
+            <div >precio:</div>
+                <input type="text" id="txtPrecio" name = "precio" autocomplete="off" placeholder="Precio" title="Aca deberia ingresar el precio de la vivienda"> 
+            <div >cantidad de baños:</div>
+                <input type="text" id="txtCantidadDeBaños" name = "CantidadDeBaños" autocomplete="off" placeholder="Baños" title="Aca deberia ingresar la cantidad de baños que posee la vivienda"> 
+            <div >cantidad de autos:</div>
+                <input type="text" id="txtCantidadDeAutos" name = "CantidadDeAutos" autocomplete="off" placeholder="Autos" title="Aca deberia ingresar la cantidad de autos que entran en la vivienda"> 
+            <div >cantidad de dormitorios:</div>
+                <input type="text" id="txtCantidadDeDormitorios" name = "CantidadDeDormitoris" autocomplete="off" placeholder="Dormitorios" title="Aca deberia ingresar la cantidad de dormitorios que posee la vivienda">   
+        </fieldset>
+        <!-- <a id="btnGuardar">Guardar</a>  -->
+        <button id="btnGuardar"><i class="fa-solid fa-floppy-disk"></i></button>
+    </div>
+    
+    <div id="buscar">
+        <!-- <a id="btnGuardarLista" >Guardar</a> -->
+        <button id="btnGuardarLista"><i class="fa-regular fa-floppy-disk"></i></i></button>
+        
+        <!-- <a id="btnEliminar">Eliminar</a> -->
+        <button id="btnEliminar"><i class="fa-solid fa-delete-left"></i></button>
+
+        <!-- <a id="btnCancelar">Cancelar</a> -->
+        <button id="btnCancelar"><i class="fa-solid fa-xmark"></i></button>
+        
+        <div class="spinner" id="spinner" ></div>
+        
+        <table id="tabla"></table>
+    </div>
+    
+    <script type="module" src="logica.js"></script>
+    <script type="module" src="Propiedad.js"></script>
+
+
+</body> 
+</html>
