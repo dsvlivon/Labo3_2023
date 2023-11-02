@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PP Daniel Vizgarra</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <h1>Llena el formular de Alta</h1>
+    <div id="modificar" style="margin-bottom: 40px;">
+        <fieldset style="margin-bottom: 20px;">
+            <legend>CRUD DE MONSTRUO</legend>
+            <div>NOMBRE:</div>
+                <input type="text" id="txtNombre" name = "nombre" autocomplete="off" placeholder="INGRESE NOMBRE"> 
+            
+            <div >ALIAS:</div>
+                <input type="text" id="txtAlterEgo" name = "alterEgo" autocomplete="off" placeholder="INGRESE ALTER EGO"> 
+
+
+            <div>DEFENSA:</div>
+                <div>cuchillo<input id="cuchilloCheck" type="radio" name="defensa" value = "CUCHILLO" checked></div>
+                <div>estaca<input id="estacaCheck" type="radio" name="defensa" value = "ESTACA"> </div>
+                <div>plata<input id="plataCheck" type="radio" name="defensa" value = "PLATA"> </div>
+                <div>pocion<input id="pocionCheck" type="radio" name="defensa" value = "POCION"> </div>
+           
+            <div>MIEDO: <span id="miedoValue">0</span></div>
+                <input type="range" id="rngMiedo" name="miedo" min="0" max="100" autocomplete="off">
+                
+                 
+            <div>TIPO:</div>
+                <label for="tipo">SELECCIONA UN TIPO:</label>
+                <select id="selTipo" name="tipo">
+                </select>
+            
+        </fieldset>
+        <!-- <a id="btnGuardar">Guardar</a>  -->
+        <button id="btnGuardar"><i class="fa-solid fa-floppy-disk"></i></button>
+    </div>
+    
+    <div id="buscar">
+        <!-- <a id="btnGuardarLista" >Guardar</a> -->
+        <button id="btnGuardarLista"><i class="fa-regular fa-floppy-disk"></i></i></button>
+        
+        <!-- <a id="btnEliminar">Eliminar</a> -->
+        <button id="btnEliminar"><i class="fa-solid fa-delete-left"></i></button>
+
+        <!-- <a id="btnCancelar">Cancelar</a> -->
+        <button id="btnCancelar"><i class="fa-solid fa-xmark"></i></button>
+        
+        <div class="spinner" id="spinner" ></div>
+        
+        <table id="tabla"></table>
+    </div>
+    
+    <script type="module" src="logica.js"></script>
+    <script type="module" src="Propiedad.js"></script>
+
+
+</body> 
+</html>

@@ -1,0 +1,13 @@
+
+{    
+    "monstruos" : 
+    [
+        { "id": 100, "nombre" : "Javier Milei", "alterEgo": "Dr.Loquito", "defensa": "cuchillo", "miedo": 90, "tipo": "fantasma"}, 
+        { "id": 101, "nombre": "Sergio Massa", "alterEgo": "El Hombre Bobo", "defensa": "plata", "miedo": 80, "tipo": "vampiro"} ,
+        { "id": 102, "nombre": "Mauricio Macri", "alterEgo": "El Gato", "defensa": "estaca", "miedo": 75, "tipo": "bruja"} ,
+        { "id": 103, "nombre": "Alberto Fernandez", "alterEgo": "La Momia", "defensa": "pocion", "miedo": 20, "tipo": "zombie"}
+    ]
+}        
+            
+
+

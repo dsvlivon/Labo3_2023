@@ -1,0 +1,72 @@
+/* Estilo general de la tabla */
+#tabla {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid black; /* Líneas negras para la tabla */
+  }
+  
+  .selected-row {
+    &:hover {
+      background-color: rgb(210, 238, 84);
+      opacity: 0.5;
+    }
+  }
+
+  #tabla th, #tabla td {
+    padding: 4px;
+    text-align: left;
+    &:hover {
+      background-color: rgb(210, 238, 84);
+      opacity: 0.5;
+    }
+  }
+  
+  /* Estilo para los botones */
+  #btnGuardar, #btnGuardarLista {
+    background-color: green; /* Botones "Guardar" y "GuardarLista" verdes */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #btnEliminar {
+    background-color: orange; /* Botón "Eliminar" naranja */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #btnCancelar {
+    background-color: blue; /* Botón "Cancelar" azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Cambiar el cursor al pasar por encima de los botones */
+  #btnGuardar, #btnGuardarLista, #btnEliminar, #btnCancelar {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .spinner {
+    margin-top: 30px;
+    margin-left: 40%;
+    border: 4px solid rgba(0, 0, 0, 0.1); /* Círculo exterior */
+    border-top: 4px solid #3498db; /* Círculo interior con el color deseado */
+    border-radius: 50%; /* Hace que el div sea circular */
+    width: 60px; /* Ancho del spinner */
+    height: 60px; /* Alto del spinner */
+    animation: spin 2s linear infinite; /* Anima la rotación */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
