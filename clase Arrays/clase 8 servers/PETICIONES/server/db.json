@@ -1,0 +1,11 @@
+{    
+    "propiedades" : 
+    [
+        { "id": 100, "titulo" : "Casa Blanca", "transaccion": "alquiler", "descripcion": "Se alquila la casa blanca para eventos. maximo 200 personas", "precio": 100000, "baños": 30, "autos": 12, "dormitorios": 250}, 
+        { "id": 101, "titulo": "Casa Rosada", "transaccion": "alquiler", "descripcion": "Se alquila la casa rosada para eventos. maximo 100 personas", "precio": 75000, "baños": 20, "autos": 8, "dormitorios": 150} ,
+        { "id": 102, "titulo": "Teatro Gran Rex", "transaccion": "compra", "descripcion": "Se vende el teatro Gran Rex. Unico dueño", "precio": 200000, "baños": 10, "autos": 30, "dormitorios": 12}
+    ]
+}        
+            
+
+

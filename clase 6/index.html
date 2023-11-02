@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/clases.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- ghay 3 tipos d listas
+    ordered list: -->
+    <h1>listas ordenadas</h1>
+    <ol type="I">
+        <li>lunes</li>
+        <li>martes</li>
+        <li>miercoles</li>
+        <li>jueves</li>
+        <li>viernes</li>
+    </ol>
+
+
+    <!-- ghay 3 tipos d listas
+    ordered list: -->
+    <h2>lista NO ordenada</h2>
+    <ul type="dot">
+        <!-- lista de viñetas -->
+        <li>enero</li>
+        <li>febrero</li>
+        <li>marzo</li>
+        <li>abril</li>
+        <li>mayo</li>
+    </ul>
+
+    <h2 id="tema1">lista de Definicion</h2>
+    <dl>
+        <dt>PIJAS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt, perspiciatis eum mollitia hic dolores laudantium quos id ipsum nam vel sapiente nemo velit amet tempora nisi dignissimos esse? Maxime.</dd>
+
+        <dt>va no no?</dt>
+        <dd>y... q se yo, es medio una pija</dd>
+    </dl>
+
+    <details> en general vemos cosas de html, listas y eso.....
+        <summary>clase 4</summary>
+    </details>
+
+    <button id="btnAbrir"><i class="fab fa-codepen"></i></button>
+    <button id="btnAbrirFoto"><i class="fas fa-image"></i></i></button>
+
+    <dialog>
+        <h2>Titulo xxxx</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt labore tenetur sint, eius commodi quod.</p>
+        <button id = "btnCerrar"><i class="fas fa-times-circle"></i></button>
+    </dialog>
+
+    <dialog id="fotoRoma">
+        <td>
+            <tr><h2>Roma Love</h2></tr>
+            <tr><button id = "btnCerrar2"><i class="fas fa-times-circle"></i></button></tr>
+        </td>
+        <td>
+            <tr><img src="./assets/imagenes/roma.jpg" alt="foto roma"></tr>
+        </td>
+    </dialog>
+
+
+
+
+    <h1> listas c referencias</h1>
+    <ul>
+        <li>
+            <a href="#tema1">tema1</a>
+            <!-- cuando arrancas a escribir un tag, 
+            si pones # autocompleta id="" 
+            si pones . autocompleta class="" -->
+        </li>
+        <li>
+            <a href="./assets/imagenes/roma.jpg">roma</a>
+        </li>
+        <li>
+            <a href="#top">volver al inicio </a>
+        </li>
+        <li>
+            <a href="./pagina2.html">pagina2</a>
+        </li>
+        <li>
+            <a href="https://www.google.com/?hl=es">google</a>
+        </li>
+        <li>
+            <a href="https://www.ole.com.ar/" 
+            target="_blank"
+            rel="noopener nofollow noreferer"
+            >ole</a>
+        </li>
+        <li>
+            <a href="./pagina3.html">pagina3</a>
+        </li>
+    </ul>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    background-color:cadetblue;
+}
+
+ol{
+    list-style-type: armenian;
+    font-size: x-large;
+}
+
+ul{
+    background-color: aqua;
+}
+
+p{
+    background-color: blue;
+}
+
+dialog>img{
+    width: 220px;
+}

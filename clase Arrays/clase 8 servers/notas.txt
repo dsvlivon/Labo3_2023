@@ -1,0 +1,25 @@
+sobre "server" boton derecho -> "open in integrated terminal" 
+abre la terminal y nos aseguramos d q este en el directorio correcto p q 
+todos los comandos q tiremos, sean en esta ubicacion
+
+
+uso el comando 'npm init' p inicializar el server
+a npm no le gustan las mayusculas
+si no le pongo 'package name' pone el nombre d la carpeta directorio
+si no cambio nada, toma los valores x defecto (lo q esta entre)
+entry point: (index.js) x ahora no se usa
+
+
+finalmente crea un 'package.json' q es lo q usa npm p gestionar el proyecto
+
+npm init -y crea un muleto d server... codigo expuesto
+
+ahora puedo instalar cosas... 
+
+npm i json-server
+
+buscar extension json formatter
+
+npm i json-server
+
+npm run server
