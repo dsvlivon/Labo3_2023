@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- tener en cuenta el lenguaje por el SEO que seria como se rastrea una pagina -->
+    <head>
+        <meta charset="UTF-8"><!-- Para que reconozca las ñ etc -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- viewport= es lo que se ve al cargar la pagina, lo que entra en la pantalla -->
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="logica.js"></script>
+        <!-- content="width=device-width= que se adapte al ancho de la pantalla en donde se esta viendo-->
+        <title>Document</title>
+        <!-- <style>
+            p{background-color: red;}
+        </style> -->
+        
+    </head>
+
+    <body><!-- Lo que se va a mostrar en la pagina -->
+        <!-- hay desde h1 hasta h6 -->
+        <title>SOY EL TITULO</title>
+        
+      
+        <table class="miTablitaVo" style="border: 1; border-color: black;">
+          <tr>
+            <td>A</td>
+            <td>B</td>
+            <td rowspan="3">C</td>
+            <td>D</td>
+          </tr>
+          <tr>
+            <td rowspan="2">E</td> <!-- Unimos las celdas E verticalmente -->
+            <td>F</td>            
+            <td rowspan="3">G</td>
+          </tr>
+          <tr>
+              <td>H</td>    
+          </tr>
+          <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+            
+          </tr>
+        </table>
+        
+          
+        <table class="miTablitaVo" style="border: 1; border-color: black;">
+          <tr>
+            <td colspan="3">A</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>C</td> <!-- Unimos las celdas E verticalmente -->
+            <td colspan="2">D</td>            
+            <td>E</td>
+          </tr>
+          <tr>
+              <td colspan="4">F</td>    
+          </tr>
+          <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+            <td>K</td>
+            
+          </tr>
+        </table>
+        
+      
+    </body>
+
+</html>

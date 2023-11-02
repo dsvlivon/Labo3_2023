@@ -1,0 +1,16 @@
+.rotar-45 {
+  transform: rotate(45deg);
+}
+.rotar-135 {
+  transform: rotate(135deg);
+}
+.blureado {
+  filter: blur(2px);
+}
+
+.sepia {
+  filter: sepia();
+}
+.opacidad {
+  opacity: 0.8;
+}
